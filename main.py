@@ -23,7 +23,9 @@ img = cv2.imread("img/strawberry.jpeg")
 #
 # print(img_resize2.shape)
 
-cv2.imshow("Original", img_resize2)
+img_flipped = cv2.flip(img, -1) # 0, 1, -1
+
+cv2.imshow("Original", img_flipped)
 
 
 cv2.waitKey(0)
