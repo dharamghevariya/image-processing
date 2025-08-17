@@ -8,14 +8,20 @@ img = cv2.imread("img/strawberry.jpeg")
 # img_grap = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # print(img_grap.shape)
 
-imgBlue = img[:,:,0]
-imgGreen = img[:,:,1]
-imgRed = img[:,:,2]
+# image channel division
 
-new_img = np.hstack((imgBlue, imgGreen, imgRed))
+# imgBlue = img[:,:,0]
+# imgGreen = img[:,:,1]
+# imgRed = img[:,:,2]
+#
+# new_img = np.hstack((imgBlue, imgGreen, imgRed))
 
+img_resize1 = cv2.resize(img, (800, 800))
+img_resize2 = cv2.resize(img, (img.shape[1]//2, img.shape[0]//2))
 
-cv2.imshow("Original", new_img)
+print(img_resize2.shape)
+
+cv2.imshow("Original", img_resize2)
 
 
 cv2.waitKey(0)
