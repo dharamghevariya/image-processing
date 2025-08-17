@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68fe53e4-9d2e-40ba-b1da-54219d3c4451" name="Changes" comment="mouse events in open cv">
-      <change afterPath="$PROJECT_DIR$/rectangle-painter.py" afterDir="false" />
+    <list default="true" id="68fe53e4-9d2e-40ba-b1da-54219d3c4451" name="Changes" comment="rectangle drawer">
+      <change afterPath="$PROJECT_DIR$/img-cropping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,9 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.events.executor": "Run",
+    "Python.img-cropping.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.rectangle-painter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -98,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755462733355</updated>
-      <workItem from="1755462744957" duration="5489000" />
+      <workItem from="1755462744957" duration="5849000" />
     </task>
     <task id="LOCAL-00001" summary="open cv setup with gray scale image conversion">
       <option name="closed" value="true" />
@@ -164,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755468196426</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rectangle drawer">
+      <option name="closed" value="true" />
+      <created>1755468375771</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755468375771</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,10 +188,13 @@
     <MESSAGE value="image flipping" />
     <MESSAGE value="updated" />
     <MESSAGE value="mouse events in open cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="mouse events in open cv" />
+    <MESSAGE value="rectangle drawer" />
+    <option name="LAST_COMMIT_MESSAGE" value="rectangle drawer" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OpenCV_Image_processing$events.coverage" NAME="events Coverage Results" MODIFIED="1755468157357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCV_Image_processing$img_cropping.coverage" NAME="img-cropping Coverage Results" MODIFIED="1755468584468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenCV_Image_processing$rectangle_painter.coverage" NAME="rectangle-painter Coverage Results" MODIFIED="1755468288908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenCV_Image_processing$main.coverage" NAME="main Coverage Results" MODIFIED="1755466111674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
