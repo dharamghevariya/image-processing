@@ -16,10 +16,12 @@ img = cv2.imread("img/strawberry.jpeg")
 #
 # new_img = np.hstack((imgBlue, imgGreen, imgRed))
 
-img_resize1 = cv2.resize(img, (800, 800))
-img_resize2 = cv2.resize(img, (img.shape[1]//2, img.shape[0]//2))
+# image resize
 
-print(img_resize2.shape)
+# img_resize1 = cv2.resize(img, (800, 800))
+# img_resize2 = cv2.resize(img, (img.shape[1]//2, img.shape[0]//2))
+#
+# print(img_resize2.shape)
 
 cv2.imshow("Original", img_resize2)
 
